@@ -22,7 +22,7 @@ export default function UrlForm() {
       setLoading(true);
       const { pdfUrl } = await convertUrl(url);
       window.location.href = pdfUrl; // download
-    } catch (err) {
+    } catch {
       setError('Failed to generate PDF. Please try again later.');
     } finally {
       setLoading(false);
