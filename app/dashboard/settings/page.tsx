@@ -118,7 +118,7 @@ export default function SettingsPage() {
                 </div>
               </CardContent>
               <CardFooter>
-                <Button type="submit" disabled={isUpdating} className="bg-primary hover:bg-purple-700">
+                <Button type="submit" disabled={isUpdating} className="bg-primary hover:bg-primary/90">
                   {isUpdating ? "Saving..." : "Save Changes"}
                 </Button>
               </CardFooter>
@@ -145,7 +145,7 @@ export default function SettingsPage() {
               </div>
             </CardContent>
             <CardFooter>
-              <Button className="bg-primary hover:bg-purple-700">Update Password</Button>
+              <Button className="bg-primary hover:bg-primary/90">Update Password</Button>
             </CardFooter>
           </Card>
         </TabsContent>
@@ -205,7 +205,7 @@ export default function SettingsPage() {
                 </div>
               </CardContent>
               <CardFooter>
-                <Button type="submit" disabled={isUpdating} className="bg-primary hover:bg-purple-700">
+                <Button type="submit" disabled={isUpdating} className="bg-primary hover:bg-primary/90">
                   {isUpdating ? "Saving..." : "Save Preferences"}
                 </Button>
               </CardFooter>

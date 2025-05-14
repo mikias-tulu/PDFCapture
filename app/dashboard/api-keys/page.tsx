@@ -129,7 +129,7 @@ export default function ApiKeysPage() {
         <h1 className="text-3xl font-bold text-gray-900">API Keys</h1>
         <Dialog open={isDialogOpen} onOpenChange={setIsDialogOpen}>
           <DialogTrigger asChild>
-            <Button className="bg-primary hover:bg-purple-700">
+            <Button className="bg-primary hover:bg-primary/90">
               <Plus className="mr-2 h-4 w-4" /> Create New API Key
             </Button>
           </DialogTrigger>
@@ -156,7 +156,7 @@ export default function ApiKeysPage() {
               <Button variant="outline" onClick={() => setIsDialogOpen(false)}>
                 Cancel
               </Button>
-              <Button onClick={handleCreateKey} disabled={isCreatingKey} className="bg-primary hover:bg-purple-700">
+              <Button onClick={handleCreateKey} disabled={isCreatingKey} className="bg-primary hover:bg-primary/90">
                 {isCreatingKey ? "Creating..." : "Create API Key"}
               </Button>
             </DialogFooter>
@@ -166,10 +166,10 @@ export default function ApiKeysPage() {
 
       {/* Newly created key alert */}
       {newlyCreatedKey && (
-        <Card className="backdrop-blur-md bg-purple-100/50 border border-purple-200 shadow-lg">
+        <Card className="backdrop-blur-md bg-primary/30/50 border border-purple-200 shadow-lg">
           <CardHeader>
             <CardTitle className="text-purple-800">New API Key Created</CardTitle>
-            <CardDescription className="text-purple-700">
+            <CardDescription className="text-primary/90">
               This is the only time we'll show your API key. Please copy it now.
             </CardDescription>
           </CardHeader>
@@ -190,7 +190,7 @@ export default function ApiKeysPage() {
             <Button
               variant="outline"
               onClick={() => setNewlyCreatedKey(null)}
-              className="w-full border-purple-200 text-purple-700"
+              className="w-full border-purple-200 text-primary/90"
             >
               I've Copied My Key
             </Button>
@@ -271,7 +271,7 @@ export default function ApiKeysPage() {
             {apiKeys.length === 0 && (
               <div className="flex flex-col items-center justify-center rounded-lg border border-dashed border-gray-300 bg-white/50 p-8 text-center">
                 <p className="mb-2 text-gray-500">You don't have any API keys yet</p>
-                <Button onClick={() => setIsDialogOpen(true)} className="mt-2 bg-primary hover:bg-purple-700">
+                <Button onClick={() => setIsDialogOpen(true)} className="mt-2 bg-primary hover:bg-primary/90">
                   <Plus className="mr-2 h-4 w-4" /> Create Your First API Key
                 </Button>
               </div>

@@ -49,7 +49,7 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
               <Link href="/" className="flex items-center">
                 <span className="text-xl font-bold text-gray-900">PDFCapture</span>
               </Link>
-              <span className="ml-2 rounded-md bg-purple-100 px-2 py-1 text-xs font-medium text-purple-800">
+              <span className="ml-2 rounded-md bg-primary/30 px-2 py-1 text-xs font-medium text-purple-800">
                 Dashboard
               </span>
             </div>
@@ -60,7 +60,7 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
               <DropdownMenu>
                 <DropdownMenuTrigger asChild>
                   <Button variant="ghost" className="flex items-center gap-2">
-                    <div className="flex h-8 w-8 items-center justify-center rounded-full bg-purple-100">
+                    <div className="flex h-8 w-8 items-center justify-center rounded-full bg-primary/30">
                       <User className="h-4 w-4 text-primary" />
                     </div>
                     <span>John Doe</span>

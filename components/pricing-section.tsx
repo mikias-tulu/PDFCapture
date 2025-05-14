@@ -85,7 +85,7 @@ export default function PricingSection() {
                 href={plan.buttonLink}
                 className={`block w-full rounded-full py-3 text-center font-medium transition-colors ${
                   plan.highlighted
-                    ? "bg-primary text-white hover:bg-purple-700"
+                    ? "bg-primary text-white hover:bg-primary/90"
                     : "bg-white text-primary hover:bg-gray-50"
                 }`}
               >

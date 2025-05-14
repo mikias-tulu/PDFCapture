@@ -62,7 +62,7 @@ export default function PdfResult({ pdfUrl, isLoading }: PdfResultProps) {
       <div className="flex flex-wrap gap-3">
         <Button
           onClick={() => window.open(pdfUrl, "_blank")}
-          className="flex items-center bg-primary hover:bg-purple-700"
+          className="flex items-center bg-primary hover:bg-primary/90"
         >
           <ExternalLink className="mr-2 h-4 w-4" />
           View PDF

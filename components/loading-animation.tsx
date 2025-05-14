@@ -45,7 +45,7 @@ export default function LoadingAnimation() {
         </div>
 
         <div className="mt-4 w-full max-w-md">
-          <div className="h-2 w-full rounded-full bg-purple-100">
+          <div className="h-2 w-full rounded-full bg-primary/30">
             <div
               className="h-2 rounded-full bg-primary transition-all duration-300 ease-in-out"
               style={{ width: `${progress}%` }}

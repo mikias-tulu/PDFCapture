@@ -30,7 +30,7 @@ export default function HowItWorks() {
               key={index}
               className="backdrop-blur-md rounded-xl bg-white/30 border border-white/40 p-6 shadow-lg transition-all hover:transform hover:scale-105"
             >
-              <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-purple-100">
+              <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-primary/30">
                 {step.icon}
               </div>
               <h3 className="mt-4 text-xl font-medium text-gray-900">{step.title}</h3>

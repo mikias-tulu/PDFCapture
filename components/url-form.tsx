@@ -110,7 +110,7 @@ export default function UrlForm() {
               <Button
                 type="submit"
                 disabled={isLoading}
-                className="ml-2 bg-primary px-6 text-white hover:bg-purple-700"
+                className="ml-2 bg-primary px-6 text-white hover:bg-primary/90"
               >
                 {isLoading ? (
                   <>

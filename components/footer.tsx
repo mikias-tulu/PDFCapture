@@ -13,7 +13,7 @@ export default function Footer() {
               PDFCapture is a powerful web service that converts any webpage into a beautifully formatted PDF document.
               Perfect for archiving, sharing, or offline reading.
             </p>
-            <Link href="/about" className="text-sm text-primary hover:text-purple-700">
+            <Link href="/about" className="text-sm text-primary hover:text-primary/90">
               Learn more about us
             </Link>
           </div>

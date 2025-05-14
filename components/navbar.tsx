@@ -36,7 +36,7 @@ export default function Navbar() {
               <Link href="/signin" className="text-gray-700 hover:text-primary">
                 Sign In
               </Link>
-              <Link href="/signup" className="rounded-full bg-primary px-4 py-2 text-white hover:bg-purple-700">
+              <Link href="/signup" className="rounded-full bg-primary px-4 py-2 text-white hover:bg-primary/90">
                 Sign Up
               </Link>
             </div>
@@ -57,35 +57,35 @@ export default function Navbar() {
           <div className="space-y-1 px-2 pb-3 pt-2">
             <Link
               href="/#how-it-works"
-              className="block rounded-md px-3 py-2 text-gray-700 hover:bg-purple-100"
+              className="block rounded-md px-3 py-2 text-gray-700 hover:bg-primary/30"
               onClick={() => setIsMenuOpen(false)}
             >
               How It Works
             </Link>
             <Link
               href="/#pricing"
-              className="block rounded-md px-3 py-2 text-gray-700 hover:bg-purple-100"
+              className="block rounded-md px-3 py-2 text-gray-700 hover:bg-primary/30"
               onClick={() => setIsMenuOpen(false)}
             >
               Pricing
             </Link>
             <Link
               href="/docs/api"
-              className="block rounded-md px-3 py-2 text-gray-700 hover:bg-purple-100"
+              className="block rounded-md px-3 py-2 text-gray-700 hover:bg-primary/30"
               onClick={() => setIsMenuOpen(false)}
             >
               Documentation
             </Link>
             <Link
               href="/signin"
-              className="block rounded-md px-3 py-2 text-gray-700 hover:bg-purple-100"
+              className="block rounded-md px-3 py-2 text-gray-700 hover:bg-primary/30"
               onClick={() => setIsMenuOpen(false)}
             >
               Sign In
             </Link>
             <Link
               href="/signup"
-              className="block rounded-md px-3 py-2 text-gray-700 hover:bg-purple-100"
+              className="block rounded-md px-3 py-2 text-gray-700 hover:bg-primary/30"
               onClick={() => setIsMenuOpen(false)}
             >
               Sign Up

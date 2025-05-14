@@ -28,7 +28,7 @@ export default function Home() {
             <div className="mt-8 flex flex-wrap justify-center gap-4">
               <Link
                 href="/signup"
-                className="inline-flex items-center rounded-full bg-primary px-6 py-3 text-white transition-all hover:bg-purple-700"
+                className="inline-flex items-center rounded-full bg-primary px-6 py-3 text-white transition-all hover:bg-primary/90"
               >
                 Get Started <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
@@ -75,7 +75,7 @@ export default function Home() {
                   </ul>
                 </div>
                 <Link href="/docs/api">
-                  <Button className="bg-primary hover:bg-purple-700">
+                  <Button className="bg-primary hover:bg-primary/90">
                     View API Documentation <ArrowRight className="ml-2 h-4 w-4" />
                   </Button>
                 </Link>

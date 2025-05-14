@@ -41,7 +41,7 @@ export default function BillingPage() {
     <div className="space-y-6">
       <div className="flex items-center justify-between">
         <h1 className="text-3xl font-bold text-gray-900">Billing</h1>
-        <Button className="bg-primary hover:bg-purple-700">Upgrade Plan</Button>
+        <Button className="bg-primary hover:bg-primary/90">Upgrade Plan</Button>
       </div>
 
       <Tabs defaultValue="subscription" value={activeTab} onValueChange={setActiveTab}>

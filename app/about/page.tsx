@@ -110,7 +110,7 @@ export default function AboutPage() {
               Convert your first webpage to PDF for free and experience the quality for yourself.
             </p>
             <Link href="/">
-              <Button className="bg-primary hover:bg-purple-700">
+              <Button className="bg-primary hover:bg-primary/90">
                 Try It Now <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
             </Link>

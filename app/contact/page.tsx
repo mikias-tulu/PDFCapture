@@ -73,7 +73,7 @@ export default function ContactPage() {
               <div className="space-y-6">
                 <div className="backdrop-blur-md rounded-xl bg-white/30 border border-white/40 p-6 shadow-lg">
                   <div className="flex items-center">
-                    <div className="mr-4 flex h-10 w-10 items-center justify-center rounded-full bg-purple-100">
+                    <div className="mr-4 flex h-10 w-10 items-center justify-center rounded-full bg-primary/30">
                       <Mail className="h-5 w-5 text-primary" />
                     </div>
                     <div>
@@ -89,7 +89,7 @@ export default function ContactPage() {
 
                 <div className="backdrop-blur-md rounded-xl bg-white/30 border border-white/40 p-6 shadow-lg">
                   <div className="flex items-center">
-                    <div className="mr-4 flex h-10 w-10 items-center justify-center rounded-full bg-purple-100">
+                    <div className="mr-4 flex h-10 w-10 items-center justify-center rounded-full bg-primary/30">
                       <MessageSquare className="h-5 w-5 text-primary" />
                     </div>
                     <div>
@@ -102,7 +102,7 @@ export default function ContactPage() {
 
                 <div className="backdrop-blur-md rounded-xl bg-white/30 border border-white/40 p-6 shadow-lg">
                   <div className="flex items-center">
-                    <div className="mr-4 flex h-10 w-10 items-center justify-center rounded-full bg-purple-100">
+                    <div className="mr-4 flex h-10 w-10 items-center justify-center rounded-full bg-primary/30">
                       <Phone className="h-5 w-5 text-primary" />
                     </div>
                     <div>
@@ -114,7 +114,7 @@ export default function ContactPage() {
 
                 <div className="backdrop-blur-md rounded-xl bg-white/30 border border-white/40 p-6 shadow-lg">
                   <div className="flex items-center">
-                    <div className="mr-4 flex h-10 w-10 items-center justify-center rounded-full bg-purple-100">
+                    <div className="mr-4 flex h-10 w-10 items-center justify-center rounded-full bg-primary/30">
                       <MapPin className="h-5 w-5 text-primary" />
                     </div>
                     <div>
@@ -187,7 +187,7 @@ export default function ContactPage() {
                     />
                   </div>
 
-                  <Button type="submit" disabled={isSubmitting} className="w-full bg-primary hover:bg-purple-700">
+                  <Button type="submit" disabled={isSubmitting} className="w-full bg-primary hover:bg-primary/90">
                     {isSubmitting ? "Sending..." : "Send Message"}
                   </Button>
                 </form>

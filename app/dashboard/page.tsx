@@ -11,7 +11,7 @@ export default function DashboardPage() {
       <div className="flex items-center justify-between">
         <h1 className="text-3xl font-bold text-gray-900">Dashboard</h1>
         <Link href="/">
-          <Button className="bg-primary hover:bg-purple-700">Convert New URL</Button>
+          <Button className="bg-primary hover:bg-primary/90">Convert New URL</Button>
         </Link>
       </div>
 

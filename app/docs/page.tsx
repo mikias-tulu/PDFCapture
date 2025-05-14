@@ -15,7 +15,7 @@ export default function DocsPage() {
           <div className="grid gap-8 md:grid-cols-2">
             {/* Getting Started */}
             <div className="backdrop-blur-md rounded-xl bg-white/30 border border-white/40 p-6 shadow-lg transition-transform hover:transform hover:scale-105">
-              <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-purple-100">
+              <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-primary/30">
                 <Book className="h-6 w-6 text-primary" />
               </div>
               <h2 className="mb-2 text-2xl font-bold text-gray-900">Getting Started</h2>
@@ -31,7 +31,7 @@ export default function DocsPage() {
 
             {/* API Reference */}
             <div className="backdrop-blur-md rounded-xl bg-white/30 border border-white/40 p-6 shadow-lg transition-transform hover:transform hover:scale-105">
-              <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-purple-100">
+              <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-primary/30">
                 <Code className="h-6 w-6 text-primary" />
               </div>
               <h2 className="mb-2 text-2xl font-bold text-gray-900">API Reference</h2>
@@ -47,7 +47,7 @@ export default function DocsPage() {
 
             {/* Examples */}
             <div className="backdrop-blur-md rounded-xl bg-white/30 border border-white/40 p-6 shadow-lg transition-transform hover:transform hover:scale-105">
-              <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-purple-100">
+              <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-primary/30">
                 <FileText className="h-6 w-6 text-primary" />
               </div>
               <h2 className="mb-2 text-2xl font-bold text-gray-900">Examples</h2>
@@ -63,7 +63,7 @@ export default function DocsPage() {
 
             {/* Advanced Usage */}
             <div className="backdrop-blur-md rounded-xl bg-white/30 border border-white/40 p-6 shadow-lg transition-transform hover:transform hover:scale-105">
-              <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-purple-100">
+              <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-primary/30">
                 <Server className="h-6 w-6 text-primary" />
               </div>
               <h2 className="mb-2 text-2xl font-bold text-gray-900">Advanced Usage</h2>
@@ -85,7 +85,7 @@ export default function DocsPage() {
             </p>
             <div className="flex flex-wrap gap-4">
               <Link href="/contact">
-                <Button className="bg-primary hover:bg-purple-700">Contact Support</Button>
+                <Button className="bg-primary hover:bg-primary/90">Contact Support</Button>
               </Link>
               <Link href="https://github.com/yourusername/PDFCapture/issues" target="_blank" rel="noopener noreferrer">
                 <Button variant="outline" className="bg-white hover:bg-gray-50">
